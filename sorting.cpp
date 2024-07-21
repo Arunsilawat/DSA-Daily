@@ -213,11 +213,11 @@ void selection(int a[],int n){
 			j++,k++;
 		}
 	}
-	while(i<mid){
+	while(i<=mid){
 		temp[k]=a[i];
 		i++,k++;
 	}
-	while(j<high){
+	while(j<=high){
 		temp[k]=a[j];
 		j++,k++;
 	}
